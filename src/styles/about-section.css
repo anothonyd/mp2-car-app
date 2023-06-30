@@ -1,9 +1,19 @@
+.about__section {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(38,38,38,1) 50%, rgba(56,56,56,1) 100%);
+}
+
+.section_title {
+  color: #eaeaea;
+  font-weight: 600;
+}
+
 .about__section-item {
   column-gap: 3rem;
 }
 
 .about__section-item p i {
-  color: #ffc0cb;
+  color: #ffc812;
   font-size: 1.1rem;
 }
 

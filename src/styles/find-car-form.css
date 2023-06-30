@@ -7,26 +7,31 @@
   padding: 65px 35px;
 }
 
+
 .find__cars-left h2 {
   font-weight: 600;
   font-size: 2.8rem;
 }
 
 .form__group {
+  background-color: #3a3b3c;
   width: 30%;
   margin-bottom: 0;
+  color: #B0B3B8 ;
 }
 
 .form__group input {
   border: 1px solid #7c8a972a;
   padding: 8px 12px;
   background-color: #3a3b3c;
+  color: #B0B3B8 ;
 
   width: 100%;
   outline: none;
 }
 .form__group input::placeholder {
-  color: #b0b3b8;
+  color: #B0B3B8 ;
+  background-color: #3a3b3c;
 }
 
 .form {
@@ -45,7 +50,8 @@
   padding: 10px 15px;
   border: 1px solid #7c8a972a;
   outline: none;
-  color: #7c8a97;
+  color: #B0B3B8 ;
+  background-color: #3a3b3c;
 }
 
 .hero__slider-section {
@@ -105,6 +111,8 @@
   .select__group select {
     padding: 7px 10px;
     font-size: 0.8rem;
+    background-color: #3a3b3c;
+    color: #7c8a97;
   }
 
   .hero__form {

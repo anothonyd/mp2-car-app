@@ -7,12 +7,18 @@
 }
 
 .contact__btn {
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
   padding: 7px 15px;
-  background: black;
-  color: #fff;
+  background: #ffc812;
+  color: #262626;
   border: none;
   outline: none;
   border-radius: 5px;
+}
+
+.contact__btn:hover {
+  scale: 1.1;
 }
 
 @media only screen and (max-width: 768px) {

@@ -39,7 +39,7 @@ export default function CarDisplay() {
     if (allCars.length === 0) {
         return (
             <div className='home__error-container'>
-                <h2 className='fw-bold'>Oops, no results</h2>
+                <h3 className='fw-bold'>Oops, no results</h3>
                 <p>No cars available.</p>
             </div>
         );
@@ -49,7 +49,9 @@ export default function CarDisplay() {
         <main>
             <div className='d-flex justify-content-start'>
             </div>
-            <section>
+            <section className='text-center'>
+                <h5 style={{ color: '#FFC812 ' }}>Come With</h5>
+                <h1 style={{ color: 'white' }}>Hot Offers</h1>
                 <div className='home__cars-wrapper position-relative flex justify-content-center align-items-center'>
                     {allCars.map((car) => (
                         <CarCard key={car.id} car={car} />

@@ -5,9 +5,9 @@
 
 .payment button {
   padding: 8px 15px;
-  border-radius: 5px;
-  background: #000d6b;
-  color: #fff;
+  border-radius: 10px;
+  background: #262626;
+  color: #FFC812 ;
   border: none;
   outline: none;
 }

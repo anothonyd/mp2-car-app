@@ -18,6 +18,7 @@
   display: flex;
   align-items: center;
   column-gap: 0.4rem;
+  cursor: pointer;
 }
 
 .header__top__help i {
@@ -101,11 +102,12 @@
   color: #262626;
   justify-content: end;
   font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .header__btn:hover {
   background-color:#FFE677 !important ;
-  scale: 1.02;
+  scale: 1.05;
 }
 
 

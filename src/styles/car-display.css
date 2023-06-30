@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
-}
-
 .max-width {
   max-width: 1440px;
   margin-left: auto;
@@ -161,6 +154,7 @@
 
 /* START: Car Card styles */
 .car-card {
+  font-family: "Manrope", sans-serif;
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
@@ -197,7 +191,7 @@
     rgba(255, 239, 171, 1) 50%,
     rgba(255, 254, 221, 1) 100%
   );
-  transform: scale(1.009) ;
+  transform: scale(1.009);
 }
 
 .car-card__content {
@@ -503,8 +497,8 @@
 }
 
 .details_btn {
-  border-radius: 0 15px 15px 0;
-  font-weight: bold;
+  border-radius: 0 0 15px 0;
+  font-weight: 500;
   width: 100%;
   padding: 0.4rem 0.6rem;
   background-color: #ffc812;
@@ -517,13 +511,13 @@
 
 .details_btn:hover {
   scale: 1.1;
-  translate: 8px;
+  translate: 5px;
 }
 
 .rent_btn {
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px 0 0 0;
   width: 100%;
-  font-weight: bold;
+  font-weight: 500;
   padding: 0.4rem 0.6rem;
   background-color: rgb(0, 0, 0);
   border: 1.5px solid #000000;
@@ -535,7 +529,7 @@
 
 .rent_btn:hover {
   scale: 1.1;
-  translate: -8px;
+  translate: -5px;
 }
 
 /* additionals */
