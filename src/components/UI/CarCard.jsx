@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import heroImage from '../../assets/all-images/car-display-img/hero.png';
 import steeringWheelImage from '../../assets/all-images/car-display-img/steering-wheel.svg';
 import tireImage from '../../assets/all-images/car-display-img/tire.svg';
 import gasImage from '../../assets/all-images/car-display-img/gas.svg';
 import CarModal from './CarModal';
+import { generateCarImageUrl } from '../../utils/api';
 
 const CarCard = ({ car }) => {
     const { make, model, city_mpg, transmission, drive } = car;
@@ -24,7 +24,7 @@ const CarCard = ({ car }) => {
 
             <div className='d-flex justify-content-center align-items-center mt-3'>
                 <img
-                    src={heroImage}
+                    src={generateCarImageUrl(car)}
                     alt="hero"
                     className='img-fluid'
                     style={{

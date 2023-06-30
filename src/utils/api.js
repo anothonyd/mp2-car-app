@@ -20,7 +20,7 @@ export async function fetchCars() {
     }
 
     const response = await fetch(
-        'https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?make=toyota', {
+        'https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?make=volkswagen', {
         headers: headers,
     });
 

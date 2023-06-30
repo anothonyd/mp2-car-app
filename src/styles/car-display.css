@@ -168,12 +168,19 @@
   align-items: flex-start;
   color: #000;
   max-width: 400px;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 20px;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 30px 0 30px 0;
   transition: 0.2s;
-  background:#FFD945;
+  background: rgb(255, 200, 18);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 200, 18, 1) 0%,
+    rgba(255, 217, 69, 1) 50%,
+    rgba(255, 230, 119, 1) 100%
+  );
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
 }
 
 @media (max-width: 480px) {
@@ -183,7 +190,14 @@
 }
 
 .car-card:hover {
-  background: #FFEFAB;
+  background: rgb(255, 230, 119);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 230, 119, 1) 0%,
+    rgba(255, 239, 171, 1) 50%,
+    rgba(255, 254, 221, 1) 100%
+  );
+  transform: scale(1.009) ;
 }
 
 .car-card__content {
@@ -493,11 +507,11 @@
   font-weight: bold;
   width: 100%;
   padding: 0.4rem 0.6rem;
-  background-color: #FFC812 ;
+  background-color: #ffc812;
   color: rgb(0, 0, 0);
   transition: 0.1s;
   cursor: pointer;
-  border: 1.9px solid #000000;
+  border: 1.5px solid #000000;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -512,8 +526,8 @@
   font-weight: bold;
   padding: 0.4rem 0.6rem;
   background-color: rgb(0, 0, 0);
-  border: 2px solid #000000;
-  color: #FFC812 ;
+  border: 1.5px solid #000000;
+  color: #ffc812;
   transition: 0.1s;
   cursor: pointer;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
