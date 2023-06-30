@@ -54,7 +54,7 @@ const Home = () => {
         </Container>
       </section>
       {/* =========== car offer section ============= */}
-      <section>
+      <section className="car-display-container">
         <Container>
           <CarDisplay />
         </Container>

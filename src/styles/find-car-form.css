@@ -20,16 +20,16 @@
 .form__group input {
   border: 1px solid #7c8a972a;
   padding: 8px 12px;
+  background-color: #3a3b3c;
 
   width: 100%;
   outline: none;
 }
 .form__group input::placeholder {
-  color: #7c8a97;
+  color: #b0b3b8;
 }
 
 .form {
-  background: #fff;
   padding-top: 55px;
   padding-bottom: 50px;
   padding-left: 15px;
@@ -62,23 +62,30 @@
 }
 
 .form__row {
-  background: #fff;
+  background: #262626;
   box-shadow: 5px 5px 15px -5px #7c8a97;
 }
 
 .journey__time::before {
   content: "Journey time";
   margin-right: 0.8rem;
-  color: #7c8a97;
+  color: #b0b3b8;
 }
 
 .find__car-btn {
-  background: #000d6b !important;
-  color: #fff !important;
+  background: #ffc812 !important;
+  color: #262626 !important;
   padding: 8px 15px;
   width: 100%;
   border: none;
   outline: none;
+  transition: 0.2s;
+}
+
+.find__car-btn:hover {
+  background-color: #FFD945 !important;
+  color: #262626 !important;
+  scale: 1.01s;
 }
 
 @media only screen and (max-width: 992px) {

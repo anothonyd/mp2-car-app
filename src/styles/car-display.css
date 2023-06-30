@@ -101,6 +101,15 @@
 /* END: Hero styles */
 
 /* START: Home styles */
+.car-display-container {
+  background: rgb(38, 38, 38);
+  background: linear-gradient(
+    135deg,
+    rgba(38, 38, 38, 1) 0%,
+    rgba(56, 56, 56, 1) 100%
+  );
+}
+
 .home__text-container {
   display: flex;
   flex-direction: column;
@@ -157,13 +166,14 @@
   padding: 1.5rem;
   justify-content: center;
   align-items: flex-start;
-  color: black;
+  color: #000;
   max-width: 400px;
   margin-right: 1rem;
   margin-bottom: 1rem;
-  background-color: #fee6f8;
-  transition: 0.1s;
   border-radius: 20px;
+  transition: 0.2s;
+  background:#FFD945;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 480px) {
@@ -173,8 +183,7 @@
 }
 
 .car-card:hover {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  background: #FFEFAB;
 }
 
 .car-card__content {
@@ -481,13 +490,14 @@
 
 .details_btn {
   border-radius: 0 15px 15px 0;
+  font-weight: bold;
   width: 100%;
   padding: 0.4rem 0.6rem;
-  background-color: #ff59db;
-  color: white;
+  background-color: #FFC812 ;
+  color: rgb(0, 0, 0);
   transition: 0.1s;
   cursor: pointer;
-  border: 1px solid #ff59db;
+  border: 1.9px solid #000000;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -499,10 +509,11 @@
 .rent_btn {
   border-radius: 15px 0 0 15px;
   width: 100%;
+  font-weight: bold;
   padding: 0.4rem 0.6rem;
-  background-color: white;
-  border: 1px solid #ff59db;
-  color: #ff59db;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #000000;
+  color: #FFC812 ;
   transition: 0.1s;
   cursor: pointer;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
@@ -515,206 +526,197 @@
 
 /* additionals */
 .mt-12 {
-    margin-top: 3rem;
-  }
-  
-  .padding-x {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  
-  .padding-y {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  
-  .max-width {
-    max-width: 100%;
-  }
-  
-  .text-4x1 {
-    font-size: 2rem;
-  }
-  
-  .font-extrabold {
-    font-weight: 800;
-  }
-  
-  .top-14px {
-    top: 14px;
-  }
-  
-  .flex {
-    display: flex;
-  }
-  
-  .mt-2 {
-    margin-top: 2px;
-  }
-  
-  .text-32px {
-    font-size: 32px;
-  }
-  
-  .font-extrabold {
-    font-weight: 800;
-  }
-  
-  .text-14px {
-    font-size: 14px;
-  }
-  
-  .font-semibold {
-    font-weight: 600;
-  }
-  
-  .font-medium {
-    font-weight: 500;
-  }
-  
-  .h-40 {
-    height: 40px;
-  }
-  
-  .my-3 {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  .relative {
-    position: relative;
-  }
-  
-  .flex {
-    display: flex;
-  }
-  
-  .w-full {
-    width: 100%;
-  }
-  
-  .mt-2 {
-    margin-top: 2px;
-  }
-  
-  .justify-between {
-    justify-content: space-between;
-  }
-  
-  .text-grey {
-    color: grey;
-  }
-  
-  .flex-col {
-    flex-direction: column;
-  }
-  
-  .items-center {
-    align-items: center;
-  }
-  
-  .gap-2 {
-    gap: 2px;
-  }
-  
-  .text-14px {
-    font-size: 14px;
-  }
-  
-  .leading-17px {
-    line-height: 17px;
-  }
-  
-  .w-full {
-    width: 100%;
-  }
-  
-  w-50 {
-    width: 50%;
-  }
-  
-  .py-16px {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-  
-  .rounded-full {
-    border-radius: 50%;
-  }
-  
-  .bg-primary-blue {
-    background-color: #007bff;
-  }
-  
-  .text-white {
-    color: white;
-  }
-  
-  .font-bold {
-    font-weight: bold;
-  }
-  
-  .mt-6 {
-    margin-top: 1.5rem;
-  }
-  
-  @media (max-width: 767px) {
-    .img-fluid {
-      object-fit: contain;
-      max-width: 250px;
-    }
-  }
-  
-  .d-flex {
-    display: flex;
-  }
-  
-  .flex-row {
-    flex-direction: row;
-  }
-  
-  .justify-content-center {
-    justify-content: center;
-  }
-  
-  .gap-3 {
-    gap: 0.75rem;
-  }
-  
-  .flex-1 {
-    flex: 1;
-  }
-  
-  .position-relative {
-    position: relative;
-  }
-  
-  .w-full {
-    width: 100%;
-  }
-  
-  .h-24 {
-    height: 6rem; /* Adjust the height value as needed */
-  }
-  
-  .bg-primary-blue-100 {
-    background-color: #abcdef; /* Replace with your desired background color */
-  }
-  
-  .rounded-lg {
-    border-radius: 0.5rem;
-  }
-  
+  margin-top: 3rem;
+}
+
+.padding-x {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.padding-y {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+.text-4x1 {
+  font-size: 2rem;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.top-14px {
+  top: 14px;
+}
+
+.flex {
+  display: flex;
+}
+
+.mt-2 {
+  margin-top: 2px;
+}
+
+.text-32px {
+  font-size: 32px;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-14px {
+  font-size: 14px;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.my-3 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.mt-2 {
+  margin-top: 2px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-2 {
+  gap: 2px;
+}
+
+.text-14px {
+  font-size: 14px;
+}
+
+.leading-17px {
+  line-height: 17px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+w-50 {
+  width: 50%;
+}
+
+.py-16px {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.text-white {
+  color: white;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 767px) {
   .img-fluid {
-    max-width: 100%;
-    height: auto;
+    object-fit: contain;
+    max-width: 250px;
   }
-  
-  .bg-primary-pink-100 {
-    background-color: #ffc0cb;
-  }
-  
-  .bg-primary-pink {
-    background-color: #fd8297;
-  }
-  
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-24 {
+  height: 6rem; /* Adjust the height value as needed */
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-primary-pink-100 {
+  background-color: #ffe677;
+}
+
+.bg-primary-pink {
+  background-color: #ffc812;
+}

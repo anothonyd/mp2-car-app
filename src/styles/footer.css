@@ -1,5 +1,5 @@
 .footer {
-  background: #dc3c54;;
+  background: #262626;;
   padding-top: 50px;
   padding-bottom: 15px;
 }
@@ -15,7 +15,7 @@
 }
 
 .footer__logo-content {
-  color: rgba(255, 255, 255, 0.715);
+  color: rgb(255, 255, 255);
   margin-top: 15px;
   line-height: 30px;
 }
@@ -29,11 +29,11 @@
   color: rgba(255, 255, 255, 0.715);
   text-decoration: none;
   font-weight: 300;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .quick__link a:hover {
-  color: #f9a826;
+  color: #fd4c6a;
 }
 
 .footer__link-title {
@@ -50,9 +50,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 8px 12px;
-  border: 1px solid #7c8a972f;
+  border: 1px solid #0000002f;
   border-radius: 50px;
-  background: #020a4de9;
+  background: #ffffffe9;
 }
 
 .newsletter input {
@@ -67,7 +67,7 @@
 }
 
 .footer__bottom {
-  border-top: 1px solid #7c8a972f;
+  border-top: 2px solid #FAB23D;
 }
 
 @media only screen and (max-width: 768px) {
