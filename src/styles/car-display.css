@@ -1,0 +1,720 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.max-width {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padding-x {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.padding-y {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  outline: none;
+}
+/* ... continue translating the remaining CSS classes ... */
+/* ... previous CSS code ... */
+
+/* START: Hero styles */
+.hero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  position: relative;
+  z-index: 0;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.hero__subtitle {
+  font-size: 27px;
+  color: black;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.hero__image-container {
+  display: flex;
+  flex-grow: 1.5;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero__image {
+  position: relative;
+  width: 100%;
+  height: 590px;
+  z-index: 0;
+}
+
+.hero__image-overlay {
+  position: absolute;
+  top: -24px;
+  right: -50%;
+  width: 200%;
+  height: 100vh;
+  z-index: -10;
+}
+/* END: Hero styles */
+
+/* START: Home styles */
+.home__text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.5rem;
+  color: black;
+}
+
+.home__filters {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.home__filter-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+}
+
+.home__cars-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 3.5rem;
+}
+
+.home__error-container {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+/* END: Home styles */
+
+/* ... continue translating the remaining CSS classes ... */
+/* ... previous CSS code ... */
+
+/* START: Car Card styles */
+.car-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  color: black;
+  max-width: 400px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fee6f8;
+  transition: 0.1s;
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  .car-card {
+    width: 300px;
+  }
+}
+
+.car-card:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.car-card__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.car-card__content-title {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.car-card__price {
+  display: flex;
+  margin-top: 1.5rem;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.car-card__price-dollar {
+  align-self: flex-start;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.car-card__price-day {
+  align-self: flex-end;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.car-card__image {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  object-fit: contain;
+}
+
+.car-card__icon-container {
+  display: flex;
+  visibility: hidden;
+  width: 100%;
+  justify-content: space-between;
+  color: grey;
+}
+
+.car-card__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.car-card__icon-text {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* END: Car Card styles */
+
+/* START: Car Details styles */
+.car-details__dialog-panel {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 20px;
+  background-color: white;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.car-details__close-btn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 10;
+  width: fit-content;
+  padding: 2px;
+  background-color: #f1f5f9;
+  border-radius: 50%;
+}
+
+.car-details__main-image {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+}
+/* END: Car Details styles */
+
+/* ... continue translating the remaining CSS classes ... */
+/* ... previous CSS code ... */
+
+/* START: Custom Filter styles */
+.custom-filter__btn {
+  position: relative;
+  width: 100%;
+  min-width: 127px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: default;
+  border-radius: 20px;
+  background-color: white;
+  padding: 0.5rem;
+  text-align: left;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  border: none;
+}
+
+.custom-filter__options {
+  position: absolute;
+  margin-top: 0.25rem;
+  max-height: 60px;
+  width: 100%;
+  overflow: auto;
+  border-radius: 4px;
+  background-color: white;
+  padding: 0.25rem;
+  font-size: 14px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+/* END: Custom Filter styles */
+
+/* START: Navbar styles */
+.navbar__link {
+  display: flex;
+  gap: 0.25rem;
+  font-weight: bold;
+}
+/* END: Navbar styles */
+
+/* START: Footer styles */
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin-top: 1.25rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.footer__links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 2.5rem 1.5rem;
+}
+
+.footer__rights {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.footer__links {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  gap: 2rem;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 14px;
+  min-width: 170px;
+}
+
+.footer__copyrights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  border-top: 1px solid #e2e8f0;
+  padding: 2.5rem 1.5rem;
+}
+
+.footer__copyrights-link {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+/* END: Footer styles */
+
+/* ... continue translating the remaining CSS classes ... */
+/* START: searchbar styles */
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  gap: 1rem;
+}
+
+.searchbar__item {
+  flex: 1;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.searchbar__input {
+  width: 100%;
+  height: 48px;
+  padding-left: 12px;
+  padding: 4px;
+  background-color: #f8f8f8;
+  border-radius: 9999px;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+/* END: searchbar styles */
+
+/* START: search manufacturer styles */
+.search-manufacturer {
+  flex: 1;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-manufacturer__input {
+  width: 100%;
+  height: 48px;
+  padding-left: 12px;
+  padding: 4px;
+  border-radius: 9999px;
+  background-color: #f8f8f8;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-manufacturer__options {
+  position: absolute;
+  margin-top: 1px;
+  max-height: 60px;
+  width: 100%;
+  overflow: auto;
+  border-radius: 0.375rem;
+  background-color: #ffffff;
+  padding-top: 0.25rem;
+  font-size: 14px;
+  box-shadow: 0 0 0.375rem rgba(0, 0, 0, 0.05);
+  border: 1px solid #000000;
+  outline: none;
+}
+
+.search-manufacturer__option {
+  cursor: default;
+  user-select: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1rem;
+}
+/* END: search manufacturer styles */
+
+.car-card__btn-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.details_btn {
+  border-radius: 0 15px 15px 0;
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  background-color: #ff59db;
+  color: white;
+  transition: 0.1s;
+  cursor: pointer;
+  border: 1px solid #ff59db;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.details_btn:hover {
+  scale: 1.1;
+  translate: 8px;
+}
+
+.rent_btn {
+  border-radius: 15px 0 0 15px;
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  background-color: white;
+  border: 1px solid #ff59db;
+  color: #ff59db;
+  transition: 0.1s;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.rent_btn:hover {
+  scale: 1.1;
+  translate: -8px;
+}
+
+/* additionals */
+.mt-12 {
+    margin-top: 3rem;
+  }
+  
+  .padding-x {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .padding-y {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .max-width {
+    max-width: 100%;
+  }
+  
+  .text-4x1 {
+    font-size: 2rem;
+  }
+  
+  .font-extrabold {
+    font-weight: 800;
+  }
+  
+  .top-14px {
+    top: 14px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .mt-2 {
+    margin-top: 2px;
+  }
+  
+  .text-32px {
+    font-size: 32px;
+  }
+  
+  .font-extrabold {
+    font-weight: 800;
+  }
+  
+  .text-14px {
+    font-size: 14px;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .h-40 {
+    height: 40px;
+  }
+  
+  .my-3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .mt-2 {
+    margin-top: 2px;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .text-grey {
+    color: grey;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .gap-2 {
+    gap: 2px;
+  }
+  
+  .text-14px {
+    font-size: 14px;
+  }
+  
+  .leading-17px {
+    line-height: 17px;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  w-50 {
+    width: 50%;
+  }
+  
+  .py-16px {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .rounded-full {
+    border-radius: 50%;
+  }
+  
+  .bg-primary-blue {
+    background-color: #007bff;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .mt-6 {
+    margin-top: 1.5rem;
+  }
+  
+  @media (max-width: 767px) {
+    .img-fluid {
+      object-fit: contain;
+      max-width: 250px;
+    }
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-row {
+    flex-direction: row;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .gap-3 {
+    gap: 0.75rem;
+  }
+  
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-24 {
+    height: 6rem; /* Adjust the height value as needed */
+  }
+  
+  .bg-primary-blue-100 {
+    background-color: #abcdef; /* Replace with your desired background color */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bg-primary-pink-100 {
+    background-color: #ffc0cb;
+  }
+  
+  .bg-primary-pink {
+    background-color: #fd8297;
+  }
+  
