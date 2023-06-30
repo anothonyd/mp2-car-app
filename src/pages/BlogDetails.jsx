@@ -55,12 +55,10 @@ const BlogDetails = () => {
                 <div className="single__comment d-flex gap-3">
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
-                    <h6 className=" fw-bold">David Visa</h6>
+                    <h6 className=" fw-bold">Jonny Sins</h6>
                     <p className="section__description mb-0">14 July, 2022</p>
                     <p className="section__description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                    Outstanding car rental experience! The vehicle I rented was in pristine condition, and the service was top-notch. The staff was friendly, professional.
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
