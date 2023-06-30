@@ -22,7 +22,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The Tesla Malibu is a high-performance electric vehicle that combines power, elegance, and cutting-edge technology. With its sleek and stylish design, it turns heads on the road while delivering an exhilarating driving experience. The Malibu is equipped with advanced features like autopilot capabilities, a spacious and luxurious interior, and a long-range battery for extended drives. Experience the future of driving with the Tesla Malibu.",
   },
 
   {
@@ -38,7 +38,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The Toyota Aventador is a dynamic and powerful sports car that exudes performance and style. With its sleek and aerodynamic design, it commands attention on the road. The Aventador boasts a high-performance engine, delivering impressive speed and acceleration. Its precision handling and advanced suspension system ensure a thrilling driving experience. Step into the world of exhilaration with the Toyota Aventador.",
   },
 
   {
@@ -54,7 +54,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The BMW X3 strikes the perfect balance between luxury and performance. With its sophisticated design and premium materials, it offers a refined and comfortable driving experience. The X3 is equipped with a powerful engine, delivering impressive performance and agility on the road. Its advanced technology features enhance convenience and safety, making every journey enjoyable. Experience the epitome of luxury and performance with the BMW X3.",
   },
 
   {
@@ -70,7 +70,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The Nissan Mercielago is a stunning fusion of style and performance. With its sleek and aerodynamic design, it exudes confidence on the road. The Mercielago boasts a powerful engine, delivering exhilarating speed and acceleration. Its advanced features and technology enhance the driving experience, providing both comfort and convenience. Experience the perfect blend of style and performance with the Nissan Mercielago.",
   },
 
   {
@@ -86,7 +86,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The Ferrari Camry is a remarkable fusion of elegance and power. With its iconic Ferrari design elements, it stands out on the road. The Camry is equipped with a high-performance engine, delivering thrilling speed and precision. Its luxurious interior offers comfort and style, while advanced technology features enhance the driving experience. Experience the perfect blend of elegance and power with the Ferrari Camry.",
   },
 
   {
@@ -102,7 +102,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The Mercedes-Benz XC90 is a masterpiece of luxury and performance. With its refined design and premium craftsmanship, it exudes elegance on the road. The XC90 features a powerful engine, providing impressive performance and dynamic handling. Its spacious and luxurious interior offers unparalleled comfort and advanced technology features. Experience the epitome of luxury and performance with the Mercedes-Benz XC90.",
   },
 
   {
@@ -118,7 +118,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The Audi Fiesta is a captivating fusion of style and excitement. With its sleek and modern design, it turns heads wherever it goes. The Fiesta boasts a dynamic engine, delivering exhilarating performance and responsive handling. Its well-crafted interior offers comfort and advanced features, making every drive enjoyable. Experience the perfect blend of style and excitement with the Audi Fiesta.",
   },
 
   {
@@ -134,7 +134,23 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " The Rolls Royce Colorado represents unparalleled luxury and refinement. With its iconic design and attention to detail, it commands admiration on the road. The Colorado features a powerful engine, offering effortless performance and a smooth driving experience. Its opulent interior showcases the finest craftsmanship and advanced technology for ultimate comfort and convenience. Indulge in the epitome of luxury and refinement with the Rolls Royce Colorado.",
+  },
+
+  {
+    id: 3,
+    brand: "Honda",
+    rating: 132,
+    carName: "Honda City",
+    imgUrl: img03,
+    model: "Model-2023",
+    price: 45,
+    speed: "20kmpl",
+    gps: "GPS Navigation",
+    seatType: "Heated seats",
+    automatic: "Automatic",
+    description:
+    " The Honda City is a perfect blend of style and efficiency. With its sleek and modern design, it stands out on the road. The City is equipped with a fuel-efficient engine, providing impressive mileage and cost-saving benefits. Its spacious interior offers comfort and versatility, while advanced features enhance convenience and safety. Experience the perfect combination of style and efficiency with the Honda City.",
   },
 ];
 

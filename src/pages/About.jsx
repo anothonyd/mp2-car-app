@@ -32,17 +32,11 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Through the years, KOTSE DEAL SERVICE has been dedicated to our mission to provide the best quality preowned cars at the most affordable and reasonable prices guaranteeing value for money and full customer satisfaction. Even during difficult and challenging times, Kotse Network has been committed to providing excellent and full customer satisfaction by providing them with the best value for money pre-owned vehicle that is fitted for their needs and lifestyle.
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                We carry a wide assortment of sedans, SUVs, pickup trucks, and vans. All units go through rigid inspections for safety, preventive maintenance.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -52,7 +46,7 @@ const About = () => {
 
                   <div>
                     <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h4>+63 9979784566</h4>
                   </div>
                 </div>
               </div>
