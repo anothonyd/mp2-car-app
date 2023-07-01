@@ -181,6 +181,10 @@
   .car-card {
     width: 300px;
   }
+
+  .modal {
+    width: 80vw;
+  }
 }
 
 .car-card:hover {

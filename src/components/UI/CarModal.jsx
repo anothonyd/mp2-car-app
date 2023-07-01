@@ -8,7 +8,7 @@ export default function CarModal({ isOpen, closeModal, car }) {
     };
 
     return (
-        <Modal show={isOpen} onHide={handleClose}>
+        <Modal show={isOpen} onHide={handleClose} className='modal'>
             <Modal.Header closeButton onClick={handleClose}></Modal.Header>
 
             <Modal.Body className='modal-dialog mt-0'>
