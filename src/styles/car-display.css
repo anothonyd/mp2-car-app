@@ -180,7 +180,10 @@
 @media (max-width: 480px) {
   .car-card {
     width: 300px;
+    margin: auto;
   }
+
+  
 
   .modal {
     width: 80vw;
