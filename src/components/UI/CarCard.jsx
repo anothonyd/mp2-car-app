@@ -33,8 +33,8 @@ const CarCard = ({ car }) => {
                 />
             </div>
 
-            <div className='card-footer position-relative flex w-full mt-2'>
-                <div className='position-relative flex w-full justify-between font-black z-1 mt-6'>
+            <div className='card-footer position-relative flex w-full'>
+                <div className='position-relative flex w-full justify-between font-black z-1'>
                     <div className='car-card__icon' style={{ width: '3.3rem' }}>
                         <img src={steeringWheelImage} width={20} height={20} alt='steering wheel' />
                         <p className='car-card__icon-text'>

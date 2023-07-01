@@ -166,12 +166,12 @@
   margin-bottom: 1.5rem;
   border-radius: 30px 0 30px 0;
   transition: 0.2s;
-  background: rgb(255, 200, 18);
+  background: rgb(184, 134, 11);
   background: linear-gradient(
     0deg,
-    rgba(255, 200, 18, 1) 0%,
-    rgba(255, 217, 69, 1) 50%,
-    rgba(255, 230, 119, 1) 100%
+    rgba(184, 134, 11, 1) 5%,
+    rgba(255, 215, 0, 1) 40%,
+    rgba(255, 238, 186, 1) 100%
   );
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.6);
   transition: 0.3s;
@@ -209,45 +209,6 @@
   text-transform: capitalize;
 }
 
-.car-card__price {
-  display: flex;
-  margin-top: 1.5rem;
-  font-size: 32px;
-  line-height: 38px;
-  font-weight: bold;
-}
-
-.car-card__price-dollar {
-  align-self: flex-start;
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 600;
-}
-
-.car-card__price-day {
-  align-self: flex-end;
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 500;
-}
-
-.car-card__image {
-  position: relative;
-  width: 100%;
-  height: 40px;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-  object-fit: contain;
-}
-
-.car-card__icon-container {
-  display: flex;
-  visibility: hidden;
-  width: 100%;
-  justify-content: space-between;
-  color: grey;
-}
-
 .car-card__icon {
   display: flex;
   flex-direction: column;
@@ -281,23 +242,6 @@
   gap: 1rem;
 }
 
-.car-details__close-btn {
-  position: absolute;
-  top: 2px;
-  right: 2px;
-  z-index: 10;
-  width: fit-content;
-  padding: 2px;
-  background-color: #f1f5f9;
-  border-radius: 50%;
-}
-
-.car-details__main-image {
-  position: relative;
-  width: 100%;
-  height: 40px;
-  border-radius: 10px;
-}
 /* END: Car Details styles */
 
 /* ... continue translating the remaining CSS classes ... */
@@ -490,7 +434,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  margin: 2rem 0 0 0;
+  margin: 0.5rem 0 0 0;
   bottom: 0;
   width: 100%;
   z-index: 100;
@@ -501,7 +445,7 @@
   font-weight: 500;
   width: 100%;
   padding: 0.4rem 0.6rem;
-  background-color: #ffc812;
+  background-color: transparent;
   color: rgb(0, 0, 0);
   transition: 0.1s;
   cursor: pointer;
@@ -521,7 +465,7 @@
   padding: 0.4rem 0.6rem;
   background-color: rgb(0, 0, 0);
   border: 1.5px solid #000000;
-  color: #ffc812;
+  color: #FFC812;
   transition: 0.1s;
   cursor: pointer;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
@@ -530,6 +474,7 @@
 .rent_btn:hover {
   scale: 1.1;
   translate: -5px;
+  color: #FFE677;
 }
 
 /* additionals */
