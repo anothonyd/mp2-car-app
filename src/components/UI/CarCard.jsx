@@ -18,7 +18,7 @@ const CarCard = ({ car }) => {
 
             <p className='flex align-self-start mt-2 text-32px font-extrabold'>
                 <span className='align-self-start text-14px font-semibold'>Php</span>
-                <span style={{fontFamily:'"Manrope", sans-serif'}}>1899</span>
+                <span style={{fontFamily:'"Manrope", sans-serif'}}>4,699</span>
                 <span className='align-self-end text-14px font-medium'>/day</span>
             </p>
 
@@ -27,9 +27,6 @@ const CarCard = ({ car }) => {
                     src={generateCarImageUrl(car)}
                     alt="hero"
                     className='img-fluid'
-                    style={{
-                        maxWidth: '350px'
-                    }}
                 />
             </div>
 

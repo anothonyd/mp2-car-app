@@ -7,6 +7,9 @@
   padding: 65px 35px;
 }
 
+.form {
+  background-color: #262626;
+}
 
 .find__cars-left h2 {
   font-weight: 600;
@@ -24,7 +27,6 @@
   border: 1px solid #7c8a972a;
   padding: 8px 12px;
   background-color: #3a3b3c;
-  color: #B0B3B8 ;
 
   width: 100%;
   outline: none;
@@ -111,8 +113,6 @@
   .select__group select {
     padding: 7px 10px;
     font-size: 0.8rem;
-    background-color: #3a3b3c;
-    color: #7c8a97;
   }
 
   .hero__form {
@@ -124,8 +124,9 @@
   .find__cars-left {
     padding-top: 20px;
     padding-bottom: 0;
-    background: #fff;
+    background: #262626;
     text-align: center;
+    color: #FFC812 ;
   }
 
   .form {

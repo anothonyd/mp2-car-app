@@ -7,7 +7,7 @@ import ava02 from "../../assets/all-images/ferds.jpg";
 
 const OUR__MEMBERS = [
   {
-    name: "Anthony Delguime",
+    name: "Anthony Dulguime",
     experience: "Front End Developer/Back End Developer",
     fbUrl: "#",
     instUrl: "#",

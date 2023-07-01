@@ -51,7 +51,7 @@ export default function CarDisplay() {
             </div>
             <section className='text-center'>
                 <h5 style={{ color: '#FFC812 ' }}>Come With</h5>
-                <h1 style={{ color: 'white' }}>Hot Offers</h1>
+                <h1 style={{ color: 'white' }}>Luxury Cars</h1>
                 <div className='home__cars-wrapper position-relative flex justify-content-center align-items-center'>
                     {allCars.map((car) => (
                         <CarCard key={car.id} car={car} />

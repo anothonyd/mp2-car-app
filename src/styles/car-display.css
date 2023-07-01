@@ -97,7 +97,7 @@
 .car-display-container {
   background: rgb(38, 38, 38);
   background: linear-gradient(
-    135deg,
+    0deg,
     rgba(38, 38, 38, 1) 0%,
     rgba(56, 56, 56, 1) 100%
   );
@@ -191,7 +191,7 @@
     rgba(255, 239, 171, 1) 50%,
     rgba(255, 254, 221, 1) 100%
   );
-  transform: scale(1.009);
+  transform: scale(1.02);
 }
 
 .car-card__content {
